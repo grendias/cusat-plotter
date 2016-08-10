@@ -8,7 +8,7 @@
 import json
 from os import path
 import glob
-import datetime
+from datetime import datetime as datelib
 import numpy as np
 import re
 import matplotlib.pyplot as plt
@@ -38,7 +38,7 @@ for x in file_list:
     with open(x) as data_file:
         data = json.load(data_file)
         date_str = re.search('\d*-\d*', x).group()
-        date_curent = datetime.datetime.strptime(date_str, "%Y%m%d-%H%M%S")
+        date_curent = datelib.strptime(date_str, "%Y%m%d-%H%M%S")
         date_list.append(date_curent)
 
 # Second loop for values
@@ -71,13 +71,14 @@ def onpick(event):
     ydata = thisline.get_ydata()
     ind = event.ind
     # TODO: We need to print those values in the plot
-    print 'X='+str(np.take(xdata, ind)[0])  # Print X point
-    print 'Y='+str(np.take(ydata, ind)[0])  # Print Y point
+    print 'Time='+str(np.take(xdata, ind)[0])  # Print X point
+    print 'Value='+str(np.take(ydata, ind)[0])  # Print Y point
 
 # Plot the values
 plot_dates = mdates.date2num(date_list)
 plt.ylabel('Value', picker=True)
 plt.xlabel('Time',  picker=True)
+plt.gcf().autofmt_xdate()           # Beautify time x axis
 plt.grid(True)
 plt.title('UPSat EX_WOD')
 plt.legend(bbox_to_anchor=(1.01, 1), loc=2, borderaxespad=0)
