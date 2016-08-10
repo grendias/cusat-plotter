@@ -1,0 +1,128 @@
+[
+  {
+    "content": [
+      {
+        "ADCS": [
+          {
+            "Boot Cnt": "308", 
+            "ECI X": "2881.0", 
+            "ECI Y": "3510.5", 
+            "ECI Z": "4989.0", 
+            "GPS Sats": "255", 
+            "GPS Status": "1", 
+            "GPS Time": "4294967295", 
+            "GPS Week": "65535", 
+            "Gyr X": "-0.092", 
+            "Gyr Y": "-0.035", 
+            "Gyr Z": "-0.024", 
+            "Last Assertion F": "0", 
+            "Last Assertion L": "0", 
+            "MG Torq I Y": "0", 
+            "MG Torq I Z": "0", 
+            "Pitch": "-57.34", 
+            "Pitch Dot": "0.309", 
+            "QB50": "524093168", 
+            "RM X": "6.672", 
+            "RM Y": "0.0", 
+            "RM Z": "-4.232", 
+            "RST source": "18", 
+            "Roll": "178.45", 
+            "Roll Dot": "1.76", 
+            "Spin RPM": "0", 
+            "Sun V 0": "3.48", 
+            "Sun V 1": "3.48", 
+            "Sun V 2": "3.49", 
+            "Sun V 3": "3.48", 
+            "Sun V 4": "3.48", 
+            "TX error": "5", 
+            "Temp": "38.15", 
+            "Time": "15892.083", 
+            "XM X": "4.349", 
+            "XM Y": "2.54", 
+            "XM Z": "-0.7", 
+            "Yaw": "-228.99", 
+            "Yaw Dot": "-1.093"
+          }
+        ], 
+        "COMMS": [
+          {
+            "Beacon pattern": "127", 
+            "Flash read transmit": "371609220", 
+            "Invalid Dest Frames Cnt": "0", 
+            "Last Assertion F": "8", 
+            "Last Assertion L": "134", 
+            "Last RX Error": "65532", 
+            "Last TX Error": "65532", 
+            "RST source": "7", 
+            "RX CRC Failed": "0", 
+            "RX Failed": "0", 
+            "RX Frames": "220", 
+            "TX Failed": "0", 
+            "TX Frames": "1087", 
+            "Time": "21672.61"
+          }
+        ], 
+        "EPS": [
+          {
+            "BOTTOM Current": "52", 
+            "BOTTOM Duty": "16", 
+            "BOTTOM Voltage": "86", 
+            "Batt Temp Health Status": "0", 
+            "Deployment Status": "0", 
+            "Heater status": "0", 
+            "LEFT Current": "117", 
+            "LEFT Duty": "16", 
+            "LEFT Voltage": "174", 
+            "Last Assertion F": "51", 
+            "Last Assertion L": "0", 
+            "RIGHT Current": "62", 
+            "RIGHT Duty": "16", 
+            "RIGHT Voltage": "113", 
+            "RST source": "49", 
+            "Safety Battery Mode": "0", 
+            "Safety Temp Mode": "0", 
+            "Soft error status": "0", 
+            "Switch ADCS": "0", 
+            "Switch COMMS": "0", 
+            "Switch OBC": "0", 
+            "Switch SU": "1", 
+            "TOP Current": "63", 
+            "TOP Duty": "16", 
+            "TOP Voltage": "130", 
+            "Temp sensor PWR SW": "0", 
+            "Time": "29558.75"
+          }
+        ], 
+        "OBC": [
+          {
+            "Boot Cnt": "76", 
+            "Boot Cnt COMMS": "24778", 
+            "Boot Cnt EPS": "13284", 
+            "IAC State": "0", 
+            "Last Assertion F": "1", 
+            "Last Assertion L": "29", 
+            "MS Err line": "0", 
+            "MS Last Err": "0", 
+            "QB50": "524093195", 
+            "RST source": "10", 
+            "RTC VBAT": "3.019628672", 
+            "SD Enabled": "1", 
+            "SU Init Func Run time": "524085.445", 
+            "SU Last Active script": "0", 
+            "SU Script Sch Active": "1", 
+            "SU Service Sch Active": "0", 
+            "Task time HK": "23.413", 
+            "Task time IDLE": "31.52", 
+            "Task time SCH": "23.754", 
+            "Task time SU": "0.0", 
+            "Task time UART": "7751.661", 
+            "Time": "7757.273", 
+            "tt_perm_exec_on_span_count": "0", 
+            "tt_perm_norm_exec_count": "0"
+          }
+        ]
+      }
+    ], 
+    "type": "EXT_WOD"
+  }
+]
